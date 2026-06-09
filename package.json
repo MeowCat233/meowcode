@@ -1,0 +1,33 @@
+{
+  "name": "meowcode",
+  "version": "1.0.0",
+  "description": "Autonomous Agent Terminal Engine",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "meowcode": "./build/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.tsx",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^15.0.0",
+    "ink": "^7.0.5",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "ink-use-stdout-dimensions": "^1.0.5",
+    "openai": "^6.42.0",
+    "react": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
